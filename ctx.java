@@ -137,7 +137,20 @@ public class ctx {
 		d32768.geraEscopoRepetidoAleatorio();
 		//gera cenario com 65536 itens repetidos em ordem Aleatória
 		Cenario d65536 = new Cenario(65536);
-		d65536.geraEscopoRepetidoAleatorio();		
+		d65536.geraEscopoRepetidoAleatorio();	
+		
+		// calcula tempo do inicio da execução
+		double init = System.currentTimeMillis();
+		//executa a ordenação
+		// TO DO
+		// calcula o tempo do final da execução
+		double finish = System.currentTimeMillis();
+		// calcula a diferença, em nanosegundos
+		double time = (finish - init)/1000000;;
+		
+		
+		
+		
 	}
 
 }
